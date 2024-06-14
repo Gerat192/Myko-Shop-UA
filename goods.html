@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товар 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="cart.html">Кошик</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Товар 1</h1>
+        <p>Ціна: $10</p>
+        <button class="add-to-cart" data-product-id="1">Додати до кошика</button>
+
+        <section id="reviews">
+            <h2>Відгуки</h2>
+            <div id="review-list"></div>
+            <h3>Додати відгук</h3>
+            <form id="review-form">
+                <label for="reviewer-name">Ім'я:</label>
+                <input type="text" id="reviewer-name" required>
+                
+                <label for="review-rating">Рейтинг:</label>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5">5 stars</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">4 stars</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">3 stars</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">2 stars</label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1">1 star</label>
+                </div>
+
+                <label for="review-text">Відгук:</label>
+                <textarea id="review-text" required></textarea>
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
