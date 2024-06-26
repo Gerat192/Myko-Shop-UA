@@ -1,2 +1,2 @@
-# Myko-Shop-UA
-Made in Mykolaiv
+# basic_final_project_release
+Базовий (мінімальний) приклад релізного проєкту з курсу "Основи фронтенд-розробки" - веб-додаток електронної комерції на HTML, CSS, JavaScript.
